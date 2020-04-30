@@ -1,0 +1,59 @@
+{
+        "id": "asdfasgsdfg",
+        "experience": "The Name of the Experience",
+        
+        "sections": [
+            {
+                "id": "asdfsdfsdfgRwert",
+                "name": "section 1",
+                "displayName": "Immunology",
+                "hotspots" : [
+                    {
+                        "id": "abc123",
+                        "name" : "HS1",
+                        "displayName" : "Hot Spot 1",
+                        "mediaType" : "video",
+                        "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
+                        "mediaThumbnail" : ["https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4"],
+                        "dimensions" : { "x": 1, "y": 1}
+                    },
+                    {
+                        "id": "abc124",
+                        "name" : "HS2",
+                        "displayName" : "Hot Spot 2",
+                        "mediaType" : "video",
+                        "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124.mp4",
+                        "mediaThumbnail" : ["https://vbcms.inhance.io/media/asdfasgsdfg/abc124_thumb.mp4"],
+                        "dimensions" : { "x": 1, "y": 1}
+                    }
+                ]
+            },
+            {
+                "id": "asdfsdfgqWERwert",
+                "name": "section 2",
+                "displayName": "Treatments",
+                "hotspots" : [
+                    {
+                        "id": "abc123",
+                        "name" : "HS3",
+                        "displayName" : "Hot Spot 3",
+                        "mediaType" : "video",
+                        "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
+                        "mediaThumbnail" : ["https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4"],
+                        "dimensions" : { "x": 1, "y": 1}
+                    },
+                    {
+                        "id": "abc124",
+                        "name" : "HS4",
+                        "displayName" : "Hot Spot 4",
+                        "mediaType" : "video",
+                        "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124.mp4",
+                        "mediaThumbnail" : ["https://vbcms.inhance.io/media/asdfasgsdfg/abc124_thumb.mp4"],
+                        "dimensions" : { "x": 1, "y": 1}
+                    }
+                ]
+            }        
+        ]
+     
+    }
+    
