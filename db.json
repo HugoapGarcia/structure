@@ -1,27 +1,13 @@
 {
     "id": "asdfasgsdfg",
     "experience": "The Name of the Experience",
-    "sections": [{
-    "id": "asdfsdfsdfgRwert",
-    "name": "section 1",
-    "displayName": "Immunology",
-    "hotspots": [{
-    "id": "abc123",
-    "name": "HS1",
-    "displayName": "Hot Spot 1",
-    "mediaType" : "video",
-    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
-    "mediaThumbnail" : "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
-    "dimensions" : { "x": 1, "y": 1}},
-    {
-     "id": "abc124",
-     "name" : "HS2",
-     "displayName" : "Hot Spot 2",
-     "mediaType" : "video",
-     "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124.mp4",
-     "mediaThumbnail" : "https://vbcms.inhance.io/media/asdfasgsdfg/abc124_thumb.mp4",
-     "dimensions" : { "x": 1, "y": 1}
-     }]}],
+    "sections": [
+        {
+            "id": "asdfsdfsdfgRwert",
+            "name": "section 1",
+            "displayName": "Immunology"
+        }
+    ],
     "current_user_url": "https://api.github.com/user",
     "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}",
     "authorizations_url": "https://api.github.com/authorizations",
@@ -54,4 +40,4 @@
     "user_organizations_url": "https://api.github.com/user/orgs",
     "user_repositories_url": "https://api.github.com/users/{user}/repos{?type,page,per_page,sort}",
     "user_search_url": "https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"
-  }
+}
