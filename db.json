@@ -12,8 +12,8 @@
                     "name": "HS1",
                     "displayName": "Hot Spot 1",
                     "mediaType": "video",
-                    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
-                    "mediaThumbnail": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
+                    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/",
+                    "mediaThumbnail": ["abc121.mp4", "abc122.mp4", "abc123.mp4", "abc124.mp4"],
                     "dimensions": {
                         "x": 1,
                         "y": 1
@@ -24,8 +24,8 @@
                     "name": "HS2",
                     "displayName": "Hot Spot 2",
                     "mediaType": "video",
-                    "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124.mp4",
-                    "mediaThumbnail": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124_thumb.mp4",
+                    "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/",
+                    "mediaThumbnail": ["abc121.mp4", "abc122.mp4", "abc123.mp4", "abc124.mp4"],
                     "dimensions": {
                         "x": 1,
                         "y": 1
@@ -43,8 +43,8 @@
                     "name": "HS3",
                     "displayName": "Hot Spot 3",
                     "mediaType": "video",
-                    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
-                    "mediaThumbnail": "https://vbcms.inhance.io/video/asdfasgsdfg/abc123.mp4",
+                    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/",
+                    "mediaThumbnail": ["abc121.mp4", "abc122.mp4", "abc123.mp4", "abc124.mp4"],
                     "dimensions": {
                         "x": 1,
                         "y": 1
@@ -55,8 +55,8 @@
                     "name": "HS4",
                     "displayName": "Hot Spot 4",
                     "mediaType": "video",
-                    "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124.mp4",
-                    "mediaThumbnail": "https://vbcms.inhance.io/media/asdfasgsdfg/abc124_thumb.mp4",
+                    "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/",
+                    "mediaThumbnail": ["abc121.mp4", "abc122.mp4", "abc123.mp4", "abc124.mp4"],
                     "dimensions": {
                         "x": 1,
                         "y": 1
