@@ -244,6 +244,87 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "asdfsdfgqWERwert",
+            "name": "section 4",
+            "displayName": "Treatments-3",
+            "hotspots": [
+                {
+                    "id": "abc123",
+                    "name": "HS3",
+                    "displayName": "Hot Spot 3",
+                    "mediaType": "pdf",
+                    "mediaUrl": "https://vbcms.inhance.io/video/asdfasgsdfg/",
+                    "mediaThumbnail": [
+                        {
+                            "id": 0,
+                            "description": "KM027-20 Alkermes ASCO Booth_Backlit_Screen_V6_1(UK)",
+                            "img": "th_pdf_0.png",
+                            "pdf": "KM027-20 Alkermes ASCO Booth_Backlit_Screen_V6_1(UK).pdf"
+                        },
+                        {
+                            "id": 1,
+                            "description": "Oncology Booth Print Content ARTISTRY-1 Brochure (CTR-003258)",
+                            "img": "th_pdf_1.png",
+                            "pdf": "Oncology Booth Print Content ARTISTRY-1 Brochure (CTR-003258).pdf"
+                          },
+                          {
+                            "id": 2,
+                            "description": "Oncology Booth Print Content ARTISTRY-2 Brochure (CTR-003259)",
+                            "img": "th_pdf_2.png",
+                            "pdf": "Oncology Booth Print Content ARTISTRY-2 Brochure (CTR-003259).pdf"
+                          },
+                          {
+                            "id": 3,
+                            "description": "Oncology Booth Print Content ION-1 Brochure (CTR-003260)",
+                            "img": "th_pdf_3.png",
+                            "pdf": "Oncology Booth Print Content ION-1 Brochure (CTR-003260).pdf"
+                          }
+                    ],
+                    "dimensions": {
+                        "x": 1,
+                        "y": 1
+                    }
+                },
+                {
+                    "id": "abc124",
+                    "name": "HS4",
+                    "displayName": "Hot Spot 4",
+                    "mediaType": "pdf",
+                    "mediaUrl": "https://vbcms.inhance.io/media/asdfasgsdfg/",
+                    "mediaThumbnail": [
+                        {
+                            "id": 0,
+                            "description": "KM027-20 Alkermes ASCO Booth_Backlit_Screen_V6_1(UK)",
+                            "img": "th_pdf_0.png",
+                            "pdf": "KM027-20 Alkermes ASCO Booth_Backlit_Screen_V6_1(UK).pdf"
+                        },
+                        {
+                            "id": 1,
+                            "description": "Oncology Booth Print Content ARTISTRY-1 Brochure (CTR-003258)",
+                            "img": "th_pdf_1.png",
+                            "pdf": "Oncology Booth Print Content ARTISTRY-1 Brochure (CTR-003258).pdf"
+                          },
+                          {
+                            "id": 2,
+                            "description": "Oncology Booth Print Content ARTISTRY-2 Brochure (CTR-003259)",
+                            "img": "th_pdf_2.png",
+                            "pdf": "Oncology Booth Print Content ARTISTRY-2 Brochure (CTR-003259).pdf"
+                          },
+                          {
+                            "id": 3,
+                            "description": "Oncology Booth Print Content ION-1 Brochure (CTR-003260)",
+                            "img": "th_pdf_3.png",
+                            "pdf": "Oncology Booth Print Content ION-1 Brochure (CTR-003260).pdf"
+                          }
+                    ],
+                    "dimensions": {
+                        "x": 1,
+                        "y": 1
+                    }
+                }
+            ]
         }
     ]
 }
