@@ -13,15 +13,24 @@
 </body>
 <script>
     function requestClick() {
-        const URL = 'https://127.0.0.1:919/rw/mastership/request';
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
-        xmlhttp.open("POST", URL, true);
-        xmlhttp.setRequestHeader("Content-Type", "application/json");
-        xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlenconded;v=2.0');
-        xmlhttp.setRequestHeader('Authorization', 'Basic ' + btoa('Default User:robotics')); //in prod, you should encrypt user name and password and provide encrypted keys here instead 
-        xmlhttp.withCredentials = true;
-        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+        // const URL = 'https://127.0.0.1:919/rw/mastership/request';
+        // var xmlhttp = new XMLHttpRequest();
+        // xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+        // xmlhttp.open("POST", URL, true);
+        // xmlhttp.setRequestHeader("Content-Type", "application/json");
+        // xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlenconded;v=2.0');
+        // xmlhttp.setRequestHeader('Authorization', 'Basic ' + btoa('Default User:robotics')); //in prod, you should encrypt user name and password and provide encrypted keys here instead 
+        // xmlhttp.withCredentials = true;
+        // xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+
+        fetch('https://127.0.0.1:919/rw/mastership/request', {
+            method: 'post',
+            body: JSON.stringify(opts)
+        }).then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            ChromeSamples.log('Created Gist:', data.html_url);
+        });
     }
 
     function callbackFunction(xmlhttp) {
