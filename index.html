@@ -27,7 +27,7 @@
             "Authorization": "Basic " + btoa("Default User:robotics")
         }
         fetch('https://192.168.1.235:919/', {
-            method: 'post',
+            method: 'get',
             headers: headers,
             body: JSON.stringify()
         }).then(function (response) {
