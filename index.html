@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     Welcome !
+    <button onclick="requestClick()">Connect</button>
 </body>
+<script>
+    function requestClick() {
+        const URL = 'https://127.0.0.1:919/rw/mastership/request';
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+        xmlhttp.open("POST", URL, true);
+        xmlhttp.setRequestHeader("Content-Type", "application/json");
+        xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlenconded;v=2.0');
+        xmlhttp.setRequestHeader('Authorization', 'Basic ' + btoa('Default User:robotics')); //in prod, you should encrypt user name and password and provide encrypted keys here instead 
+        xmlhttp.withCredentials = true;
+        xmlhttp.onreadystatechange = callbackFunction(xmlhttp);
+    }
+
+    function callbackFunction(xmlhttp) {
+        console.log(xmlhttp.responseXML);
+    }
+</script>
+
 </html>
