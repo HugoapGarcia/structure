@@ -27,7 +27,7 @@
             "Content-Type": "text/plain",//"Content-Type": "application/x-www-form-urlenconded;v=2.0",
             "Authorization": "Basic " + btoa("Default User:robotics")
         }
-        fetch('https://192.168.1.235:919/', {
+        fetch('https://172.250.12.173:919/', {
             method: 'get',
             mode: 'cors',
             headers: new Headers({
@@ -46,24 +46,20 @@
     }
 
     function loadScript() {
-        const status = response => {
-            if (response.status >= 200 && response.status < 300) {
-                return Promise.resolve(response)
-            }
-            return Promise.reject(new Error(response.statusText))
-        }
+        var myHeaders = new Headers();
+        myHeaders.append("Accept", "application/hal+json;v=2.0");
+        myHeaders.append("Authorization", "Basic RGVmYXVsdCBVc2VyOnJvYm90aWNz");
 
-        const json = response => response.json()
+        var requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            redirect: 'follow'
+        };
 
-        fetch('https://192.168.1.235:919/')
-            .then(status)
-            .then(json)
-            .then(data => {
-                console.log('Request succeeded with JSON response', data)
-            })
-            .catch(error => {
-                console.log('Request failed', error)
-            })
+        fetch("https://172.250.12.173:919/", requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
     }
 </script>
 
