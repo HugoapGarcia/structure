@@ -26,7 +26,7 @@
             "Content-Type": "application/x-www-form-urlenconded;v=2.0",
             "Authorization": "Basic " + btoa("Default User:robotics")
         }
-        fetch('https://192.168.1.235:919/rw/mastership/request', {
+        fetch('https://192.168.1.235:919/', {
             method: 'post',
             headers: headers,
             body: JSON.stringify()
