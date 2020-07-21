@@ -56,7 +56,7 @@
             redirect: 'follow'
         };
 
-        fetch("https://172.250.12.173:919/", requestOptions)
+        fetch("https://192.168.1.235:919/", requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
