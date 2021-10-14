@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processRegistrationRequest xsi:schemaLocation="http://convio.com/crm/v1.0 http://service.convio.net/xmlschema/crm.public.v1.xsd" xmlns="http://convio.com/crm/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <eventId>2183</eventId>
+  <teamId xsi:nil="true"/>
+  <previousTeamId xsi:nil="true"/>
+  <teamName xsi:nil="true"/>
+  <teamGoal>$2,000.00</teamGoal>
+  <isCaptain>false</isCaptain>
+  <companyId xsi:nil="true"/>
+  <paymentType xsi:nil="true"/>
+  <checkNumber xsi:nil="true"/>
+  <billingTitle xsi:nil="true"/>
+  <billingFirstName xsi:nil="true"/>
+  <billingMiddleName xsi:nil="true"/>
+  <billingLastName xsi:nil="true"/>
+  <billingSuffix xsi:nil="true"/>
+  <billingEmail xsi:nil="true"/>
+  <billingStreet1 xsi:nil="true"/>
+  <billingStreet2 xsi:nil="true"/>
+  <billingStreet3 xsi:nil="true"/>
+  <billingCity xsi:nil="true"/>
+  <billingState xsi:nil="true"/>
+  <billingZip xsi:nil="true"/>
+  <billingCountry xsi:nil="true"/>
+  <creditCardType xsi:nil="true"/>
+  <creditCardNumber xsi:nil="true"/>
+  <creditCardExpMonth xsi:nil="true"/>
+  <creditCardExpYear xsi:nil="true"/>
+  <creditCardVerificationCode xsi:nil="true"/>
+  <primaryRegistration>
+    <partTypeId>5817</partTypeId>
+    <consId xsi:nil="true"/>
+    <memberId xsi:nil="true"/>
+    <discountCode xsi:nil="true"/>
+    <fundraisingGoal>$200.00</fundraisingGoal>
+    <email required="true"/>
+    <title xsi:nil="true"/>
+    <firstName required="true"/>
+    <lastName required="true"/>
+    <street1 required="true"/>
+    <street2/>
+    <street3/>
+    <city required="true"/>
+    <stateProv required="true"/>
+    <postalCode required="true"/>
+    <country required="true"/>
+    <phoneNumber xsi:nil="true"/>
+    <dateOfBirth required="true" xsi:nil="true"/>
+    <gender required="true"/>
+    <employerName xsi:nil="true"/>
+    <question>
+      <id>13393</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>false</questionRequired>
+    </question>
+    <question>
+      <id>11363</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>true</questionRequired>
+    </question>
+    <question>
+      <id>11364</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>true</questionRequired>
+    </question>
+    <question>
+      <id>11367</id>
+      <type>PARTICIPATION_TYPE</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>true</questionRequired>
+    </question>
+    <question>
+      <id>11368</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>true</questionRequired>
+    </question>
+    <question>
+      <id>11369</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>false</questionRequired>
+    </question>
+    <question>
+      <id>11372</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>true</questionRequired>
+    </question>
+    <question>
+      <id>13326</id>
+      <type>EVENT</type>
+      <response xsi:nil="true"/>
+      <key xsi:nil="true"/>
+      <hidden>false</hidden>
+      <questionRequired>false</questionRequired>
+    </question>
+    <additionalGift>
+      <amount xsi:nil="true"/>
+      <isPublic>true</isPublic>
+      <isAnonymous>false</isAnonymous>
+    </additionalGift>
+    <emailOptIn required="true">true</emailOptIn>
+    <mailOptIn required="true">true</mailOptIn>
+    <giftNotification>true</giftNotification>
+    <emailFormat xsi:nil="true"/>
+  </primaryRegistration>
+</processRegistrationRequest>
